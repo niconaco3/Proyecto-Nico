@@ -1,0 +1,663 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+/* font-family: 'Oswald', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.logo span {
+  color: #333;
+}
+
+main {
+  width: 100%;
+  background-image: url(../img/hasta-quinto-grado-gustavo-fue-a-un-colegio-del-4CL4R4CHOZGE3OZ5QGUYKAOBSQ.avif);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.historiaCerati {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 3px solid rgb(136, 34, 8);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .historiaCerati {
+    height: 24rem;
+  }
+}
+
+.barra {
+  display: flex;
+  display: inline-block;
+  font-size: 20px;
+  border: solid 5px;
+  padding: 4px;
+}
+
+.barra ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.barra a {
+  color: #000;
+  text-decoration: none;
+}
+
+.barra a:hover {
+  color: #fffefec2;
+}
+
+.historiaCerati h4 {
+  font-size: 33px;
+}
+
+.historiaCerati p {
+  margin-bottom: 20px;
+}
+
+.historiaCerati a {
+  padding: 10px 20px;
+  background-color: rgb(136, 34, 8);
+  color: #fff;
+  text-decoration: none;
+}
+
+.imgCerati {
+  height: 24rem;
+  object-fit: cover;
+}
+
+.ceratiBanner {
+  height: 12rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .imgCerati {
+    height: 26rem;
+  }
+
+  .ceratiBanner {
+    height: 20rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .ceratiBanner {
+    height: 25rem;
+  }
+}
+
+h2 {
+  text-align: center;
+  background-color: rgb(136, 34, 8);
+  padding: 15px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-size: 35px;
+  border: 5px solid #000;
+}
+
+.quienSoy {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+}
+
+@media only screen and (min-width: 1024px) {
+  .quienSoy {
+    height: 22rem;
+  }
+}
+
+.qnIzquierda {
+  width: 100%;
+  min-height: 250px;
+  background-color: #333;
+  background-image: url(../img/unnamed.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.qnDerecha {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.qnDerecha h3 {
+  color: rgb(136, 34, 8);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.galeria {
+  background-color: rgb(136, 34, 8);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .galeria {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+}
+
+.item {
+  height: 22rem;
+  width: 14rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  transition: all 200ms;
+}
+
+.item:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.redes {
+  margin-top: 10px;
+}
+
+footer a {
+  color: rgb(136, 34, 8);
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 15px;
+}
+
+@media only screen and (max-width: 640px) {
+  .quienSoy {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .nleft,
+  .nright {
+    width: 50%;
+  }
+}
+
+h1 {
+  color: rgb(136, 34, 8);
+  text-align: center;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.sodaStereo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px;
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.s1 {
+  color: #000000;
+  background-color: rgb(180, 178, 178);
+  border: 5px solid rgb(34, 121, 53);
+  margin: 15px;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.s2 {
+  background-image: url(../img/soda-stereo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.s3 {
+  color: #000;
+  background-color: rgba(180, 178, 178);
+  border: 5px solid rgb(31, 121, 53);
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.nadaPersonal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px;
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.n1 {
+  color: #101fee;
+  background-color: #a8a8a8da;
+  border: 5px solid rgb(176, 75, 185);
+  margin: 15px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.n2 {
+  background-image: url(../img/soda-stereo-nada-personal-cd-nuevo-cerrado-D_NQ_NP_820315-MLA26657051679_012018-F.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.n3 {
+  color: #101fee;
+  background-color: #a8a8a8da;
+  border: 5px solid rgb(176, 75, 185);
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.signos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px;
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.g1 {
+  color: #7d8513;
+  background-color: #ffffffad;
+  border: 5px solid rgb(168, 43, 158);
+  margin: 15px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.g2 {
+  background-image: url(../img/Soda-Stereo_Signos_portada.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.g3 {
+  color: #7d8513;
+  background-color: #ffffffad;
+  border: 5px solid rgb(168, 43, 158);
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.dobleVida {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px;
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.v1 {
+  color: #000000;
+  background-color: #aca9a96b;
+  border: 5px solid rgb(0, 0, 0);
+  margin: 15px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.v2 {
+  background-image: url(../img/Doble_vida_cover_sodastereo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.v3 {
+  color: #000;
+  background-color: #aca9a96b;
+  border: 5px solid #000;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cancionAnimal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px;
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.c1 {
+  color: #ff9305;
+  background-color: #000000da;
+  border: 5px solid rgb(253, 128, 26);
+  margin: 15px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.c2 {
+  background-image: url(../img/cancion-animal-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.c3 {
+  color: #ff9305;
+  background-color: #000000da;
+  border: 5px solid rgb(253, 128, 26);
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.dynamo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px;
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.d1 {
+  color: #b3b3b3;
+  background-color: #630101da;
+  border: 5px solid #b12222;
+  margin: 15px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.d2 {
+  background-image: url(../img/dynamo.PNG);
+  background-size: cover;
+  background-position: center;
+}
+
+.d3 {
+  color: #b3b3b3;
+  background-color: #630101da;
+  border: 5px solid #b12222;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.sueñoStereo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px;
+  background-color: #ffffff;
+}
+
+.u1 {
+  color: #e9e8e8;
+  background-color: #161515d8;
+  border: 5px solid #afafaf;
+  margin: 15px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.u2 {
+  background-image: url(../img/888751012110.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.u3 {
+  color: #e9e8e8;
+  background-color: #161515d8;
+  border: 5px solid #afacac;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    height: 58rem;
+  }
+
+  .card img {
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .sodaStereo {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 400px);
+  }
+  .s1 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+  .s2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+  .s3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  .nadaPersonal {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 400px);
+  }
+  .n1 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+  .n2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+  .n3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  .signos {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 400px);
+  }
+  .g1 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+  .g2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+  .g3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  .dobleVida {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 400px);
+  }
+  .v1 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+  .v2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+  .v3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  .cancionAnimal {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 400px);
+  }
+  .c1 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+  .c2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+  .c3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  .dynamo {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 400px);
+  }
+  .d1 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+  .d2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+  .d3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  .sueñoStereo {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 400px);
+  }
+  .u1 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+  .u2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+  .u3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+}
+
+.enProgresoContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.redes {
+  margin-top: 10px;
+}
+
+footer a {
+  color: rgb(136, 34, 8);
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 15px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px; 
+  margin: 20px 20px; 
+}
+
+.survey {
+  width: 60%;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.answer {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+.images img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 830px) {
+  .container {
+      max-width: 600px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400;
+}
+
+@media (max-width: 350px) {
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300;
+   }
+  }
+}
